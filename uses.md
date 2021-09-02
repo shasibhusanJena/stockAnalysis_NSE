@@ -1,2 +1,0 @@
-# analysis
-used  for practive 
