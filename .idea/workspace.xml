@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2adc0b9-d3bc-463e-acfa-c8aab2284cfb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,9 +33,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SMA level 2" />
+    <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace_analysis\analysis\SMA level 2" />
+      <recent name="C:\workspace_analysis\analysis\SMA" />
       <recent name="C:\workspace_analysis\analysis" />
     </key>
   </component>
@@ -42,9 +56,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="162" key="SettingsEditor" timestamp="1630603362494">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="446" y="98" key="#Inspections" timestamp="1631549598116">
+      <screen x="0" y="0" width="1707" height="879" />
     </state>
+    <state x="446" y="98" key="#Inspections/0.0.1707.879@0.0.1707.879" timestamp="1631549598116" />
+    <state x="689" y="236" key="FileChooserDialogImpl" timestamp="1631548986876">
+      <screen x="0" y="0" width="1707" height="879" />
+    </state>
+    <state x="689" y="236" key="FileChooserDialogImpl/0.0.1707.879@0.0.1707.879" timestamp="1631548986876" />
+    <state x="410" y="137" key="SettingsEditor" timestamp="1631552433477">
+      <screen x="0" y="0" width="1707" height="879" />
+    </state>
+    <state x="410" y="137" key="SettingsEditor/0.0.1707.879@0.0.1707.879" timestamp="1631552433477" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1630603362494" />
   </component>
 </project>

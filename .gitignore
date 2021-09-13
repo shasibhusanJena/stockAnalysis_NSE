@@ -1,0 +1,2 @@
+# exclude all the virtual env install/ pkg
+var/
