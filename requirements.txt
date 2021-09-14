@@ -1,4 +1,4 @@
-# below packages are needed to installed before we can run examples
+# below packages are needed before we could run our example.
 
 pandas      # used for all the operation like to get SMA for each stock.
 nsepy       # pkg provided all nececery NSE data for our requiremnt.
