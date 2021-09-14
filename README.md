@@ -1,4 +1,4 @@
-# Analysis
+#### Analysis
 
 
 Here we will find some basic knowledge on how to use packages like: for NSE stock analysis 
@@ -9,7 +9,7 @@ Here we will find some basic knowledge on how to use packages like: for NSE stoc
     4.pandas
     5.sys
 
-############
+#####
 install all the required packages by running below command.
 
     pip install -r requirements.txt
@@ -22,9 +22,19 @@ install all the required packages by running below command.
 -------------------------------------------------------
 Over the time we have considered different combinations and have validated result/price against historical values.
 
-# next action items
+#### Next action items
 
    - add files into AWS Lambda.
    - add AWS watch to monitor usage.
    - store every day execution data with below format in s3 bucket.
       - yyyy-mm-dd hh:mm     
+
+#### Once you run application will give output signal on which trade to buy next from the attribute named as 'Signal' we also can modify example accordingly
+ 
+    Example:
+
+    Line 558: 2021-*****  SHREECEM     EQ  30663.35   28668  28068.2650   27975.261     1.0       1.0
+    Line 638: 2021-*****  EICHERMOT     EQ   2805.00   287427   2656.9625    2652.001     1.0       1.0
+    Line 978: 2021-*****  DALBHARAT     EQ  2409.40  466844   2108.2275    2098.420     1.0       1.0
+    Line 302: 2021-*****  RECLTD     EQ  158.05   4433719    149.8375     149.752     1.0       1.0
+    

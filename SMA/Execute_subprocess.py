@@ -1,7 +1,7 @@
 from subprocess import *
 import time
-# Popen('python ./HistoryPrice_11.py')
-# time.sleep(1)
+Popen('python ./HistoryPrice_11.py')
+time.sleep(1)
 Popen('python ./HistoryPrice_12.py')
 time.sleep(10)
 Popen('python ./HistoryPrice_14.py')

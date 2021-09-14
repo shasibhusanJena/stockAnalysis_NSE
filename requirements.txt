@@ -1,4 +1,6 @@
+# below packages are needed to installed before we can run examples
+
 pandas      # used for all the operation like to get SMA for each stock.
-nsepy       # pkg provided all nececery NSE data for our requiremnt
-datetime    # handle the time of execution in our program
-numpy       # used to manage numerical operation in the Program
+nsepy       # pkg provided all nececery NSE data for our requiremnt.
+datetime    # handle the time of execution in our program.
+numpy       # used to manage numerical operation in the Program.

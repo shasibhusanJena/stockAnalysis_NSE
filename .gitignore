@@ -1,2 +1,4 @@
 # exclude all the virtual env install/ pkg
 var/
+*.txt
+.idea/workspace.xml
