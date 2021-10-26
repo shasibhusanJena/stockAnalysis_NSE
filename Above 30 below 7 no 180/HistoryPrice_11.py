@@ -9,7 +9,7 @@ def process_trade(trade_list):
         sys.stdout = f  # Change the standard output to the file we created.
         print('This message will be written to a file.')
         for trade in trade_list:
-            data = get_history(symbol=trade, start=date(2017, 1, 1), end=date.today())
+            data = get_history(symbol=trade, start=date(2019, 1, 1), end=date.today())
             df = pd.DataFrame(data, columns=['Symbol', 'Series', 'Prev Close', 'Close', 'Volume'])
             df7 = pd.DataFrame(data, columns=['Close'])
             short_rolling3 = df7.rolling(window=3).mean()
