@@ -6,7 +6,7 @@ from nsepy import get_history
 
 
 def process_trade(trade_list):
-    with open('filename01.txt', 'w') as f:
+    with open('filename015.txt', 'w') as f:
         sys.stdout = f  # Change the standard output to the file we created.
         print('This message will be written to a file.')
         for trade in trade_list:
@@ -38,7 +38,5 @@ def process_trade(trade_list):
             # sys.stdout = original_std_out
 
 
-# Large Cap
-trade_list = st.list_one
-
+trade_list = st.filename015
 process_trade(trade_list)
