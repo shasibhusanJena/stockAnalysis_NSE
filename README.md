@@ -21,11 +21,14 @@ install all the required packages by running below command.
 Over the time we have considered different combinations and have validated result/price against historical values.
 
 #### Next action items
-
+   - add RSI indicator to give more insight like: over buy / under buy
+      - here is a good example to integrate https://handsoffinvesting.com/calculate-and-analyze-rsi-using-python/
    - add files into AWS Lambda.
    - add AWS watch to monitor usage.
    - store every day execution data with below format in s3 bucket.
       - yyyy-mm-dd hh:mm     
+   - remove hardcoded stock names from files.
+   
 
 #### Sample Output
     Once you run application will give output signal on which trade to buy next from the attribute named as 'Signal' we also can modify example accordingly
