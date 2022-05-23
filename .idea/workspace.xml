@@ -4,7 +4,6 @@
     <list default="true" id="a2adc0b9-d3bc-463e-acfa-c8aab2284cfb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +24,20 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SMA level 2" />
-    <property name="settings.editor.selected.configurable" value="ics" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="analysis" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="analysis" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -40,6 +46,7 @@
       <recent name="C:\workspace_analysis\analysis" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -52,20 +59,5 @@
       <updated>1630603331131</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="446" y="98" key="#Inspections" timestamp="1631549598116">
-      <screen x="0" y="0" width="1707" height="879" />
-    </state>
-    <state x="446" y="98" key="#Inspections/0.0.1707.879@0.0.1707.879" timestamp="1631549598116" />
-    <state x="689" y="236" key="FileChooserDialogImpl" timestamp="1631548986876">
-      <screen x="0" y="0" width="1707" height="879" />
-    </state>
-    <state x="689" y="236" key="FileChooserDialogImpl/0.0.1707.879@0.0.1707.879" timestamp="1631548986876" />
-    <state x="410" y="137" key="SettingsEditor" timestamp="1631552433477">
-      <screen x="0" y="0" width="1707" height="879" />
-    </state>
-    <state x="410" y="137" key="SettingsEditor/0.0.1707.879@0.0.1707.879" timestamp="1631552433477" />
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1630603362494" />
   </component>
 </project>
