@@ -23,7 +23,7 @@ def process_trade(trade_list):
             df['avgPrice200'] = short_rolling200
             ds = ""
             for i in df.index:
-                if df.loc[i, 'avgPrice7'] <= df.loc[i, 'Close'] <= df.loc[i, 'avgPrice50'] and \
+                if df.loc[i, 'avgPrice7'] >= df.loc[i, 'Close'] <= df.loc[i, 'avgPrice50'] and \
                         df.loc[i, 'Close'] <= df.loc[i, 'avgPrice200']:
                     ls = "index: " + str(i) + " Symbol: " \
                          + str(df.loc[i, 'Symbol']) \

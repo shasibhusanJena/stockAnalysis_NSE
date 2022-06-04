@@ -6,7 +6,7 @@ from nsepy import get_history
 
 
 def process_trade(trade_list):
-    with open('filename014.txt', 'w') as f:
+    with open('filename019.txt', 'w') as f:
         sys.stdout = f  # Change the standard output to the file we created.
         print('This message will be written to a file.')
         for trade in trade_list:
@@ -23,7 +23,7 @@ def process_trade(trade_list):
             df['avgPrice200'] = short_rolling200
             ds = ""
             for i in df.index:
-                if df.loc[i, 'avgPrice7'] <= df.loc[i, 'Close'] <= df.loc[i, 'avgPrice50'] and \
+                if df.loc[i, 'avgPrice7'] >= df.loc[i, 'Close'] <= df.loc[i, 'avgPrice50'] and \
                         df.loc[i, 'Close'] <= df.loc[i, 'avgPrice200']:
                     ls = "index: " + str(i) + " Symbol: " \
                          + str(df.loc[i, 'Symbol']) \
@@ -38,5 +38,5 @@ def process_trade(trade_list):
             # sys.stdout = original_std_out
 
 
-trade_list = st.filename014
+trade_list = st.filename019
 process_trade(trade_list)
