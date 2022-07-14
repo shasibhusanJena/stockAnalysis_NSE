@@ -17,11 +17,13 @@ def process_trade(trade_list):
             df['avgPrice20'] = short_rolling20
             short_rolling50 = df7.rolling(window=50).mean()
             df['avgPrice50'] = short_rolling50
+            short_rolling200 = df7.rolling(window=200).mean()
+            df['avgPrice200'] = short_rolling200
             df = df.dropna()
             df['Signal'] = 0.0
-            df['Signal'] = np.where(df['avgPrice20'] > df['avgPrice50'], 1.0, 0.0)
+            df['Signal'] = np.where((df['avgPrice20'] > df['avgPrice50']) & (df['avgPrice50'] < df['avgPrice200']), 1.0, 0.0)
             df['Position'] = df['Signal'].diff()
-            print(df)
+            print(df.tail(30))
             print('-----------------------------------------------')
 
 trade_list =['BHARATRAS','BURGERKING','CERA','SWSOLAR','JKLAKSHMI','BEML','VSTIND','SPARC','KRBL','COCHINSHIP','JSL','VIPIND','ANGELBRKG','GPPL','MASFIN','HFCL','GODFRYPHLP','SUZLON','SOBHA','SUDARSCHEM','ECLERX','CAPLIPOINT','CSBBANK','KARURVYSYA','OIL','JSLHISAR','RESPONIND','ENGINERSIN','STARCEMENT','MAZDOCK','NETWORK18','MOIL','VALIANTORG','IRCON','GSFC','MAHSCOOTER','BAJAJCON','TASTYBITE','DELTACORP','MAHLOG','IFBIND','SPANDANA','HEMIPROP','WIPRO','KSCL','WELCORP','IOLCP','ORIENTREF','GAEL','SPICEJET','IRB','DHANUKA','MIDHANI','SUNTECK','TCIEXP','SHILPAMED','IBREALEST','NESCO','POLYPLEX','PHILIPCARB','GULFOILLUB','SUPRAJIT','ALEMBICLTD','INDOCO','TRITURBINE','GUJALKALI','UFLEX','SWANENERGY','GREAVESCOT','NOCIL','TCNSBRANDS','INOXLEISUR','NILKAMAL','NFL','CCL','CHALET','JINDALSAW','JKTYRE','EQUITAS','DCAL','TATACOFFEE','JAMNAAUTO','ICIL','SHARDACROP','DCBBANK','LEMONTREE','MHRIL','MINDACORP','FRETAIL','UJJIVAN','LAOPALA']

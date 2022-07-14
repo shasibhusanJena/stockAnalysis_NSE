@@ -6,7 +6,7 @@ import numpy as np
 
 
 def process_trade(trade_list):
-    with open('filename01.txt', 'w') as f:
+    with open('SMA2_filename01.txt', 'w') as f:
         sys.stdout = f  # Change the standard output to the file we created.
         print('This message will be written to a file.')
         for trade in trade_list:

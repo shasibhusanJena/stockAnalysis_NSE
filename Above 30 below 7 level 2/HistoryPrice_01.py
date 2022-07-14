@@ -17,21 +17,27 @@ def process_trade(trade_list):
             df['avgPrice3'] = short_rolling3
             short_rolling7 = df7.rolling(window=7).mean()
             df['avgPrice7'] = short_rolling7
-            short_rolling50 = df7.rolling(window=50).mean()
-            df['avgPrice50'] = short_rolling50
-            short_rolling200 = df7.rolling(window=200).mean()
-            df['avgPrice200'] = short_rolling200
+            short_rolling30 = df7.rolling(window=30).mean()
+            df['avgPrice30'] = short_rolling30
+            short_rolling45 = df7.rolling(window=45).mean()
+            df['avgPrice45'] = short_rolling45
+            short_rolling60 = df7.rolling(window=60).mean()
+            df['avgPrice60'] = short_rolling60
+            short_rolling180 = df7.rolling(window=180).mean()
+            df['avgPrice180'] = short_rolling180
             ds = ""
             for i in df.index:
-                if df.loc[i, 'avgPrice7'] >= df.loc[i, 'Close'] <= df.loc[i, 'avgPrice50'] and \
-                        df.loc[i, 'Close'] <= df.loc[i, 'avgPrice200']:
-                    ls = "index: " + str(i) + " Symbol: " \
-                         + str(df.loc[i, 'Symbol']) \
-                         + " Close: " + str(df.loc[i, 'Close']) \
-                         + " avgPrice7 " + str(round(df.loc[i, 'avgPrice7'])) \
-                         + " avgPrice50 " + str(round(df.loc[i, 'avgPrice50'])) \
-                         + " avgPrice200 " + str(round(df.loc[i, 'avgPrice200'])) \
-                         + " Volume " + str(round(df.loc[i, 'Volume']))
+                if df.loc[i, 'avgPrice7'] >= df.loc[i, 'Close'] >= df.loc[i, 'avgPrice30'] and \
+                        df.loc[i, 'Close'] <= df.loc[i, 'avgPrice180'] and \
+                        df.loc[i, 'Close'] <= df.loc[i, 'avgPrice45'] and \
+                        df.loc[i, 'Close'] <= df.loc[i, 'avgPrice180'] and \
+                        df.loc[i, 'Close'] <= df.loc[i, 'avgPrice60']:
+                    ls = "index: " + str(i) + " Symbol: " + str(df.loc[i, 'Symbol']) + " Close: " + str(
+                        df.loc[i, 'Close']) + " avgPrice7 " + str(round(df.loc[i, 'avgPrice7'])) \
+                         + " avgPrice30 " + str(round(df.loc[i, 'avgPrice30'])) + " avgPrice45 " + str(
+                        round(df.loc[i, 'avgPrice45'])) + " avgPrice180 " + str(
+                        round(df.loc[i, 'avgPrice180'])) + " avgPrice60 " + str(
+                        round(df.loc[i, 'avgPrice60'])) + " Volume " + str(round(df.loc[i, 'Volume']))
                     ds = ds + ls + '\n'
                     ls = ''
             print(ds)
