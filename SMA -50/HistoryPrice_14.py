@@ -16,11 +16,13 @@ def process_trade(trade_list):
             df['avgPrice20'] = short_rolling20
             short_rolling50 = df7.rolling(window=50).mean()
             df['avgPrice50'] = short_rolling50
+            short_rolling200 = df7.rolling(window=200).mean()
+            df['avgPrice200'] = short_rolling200
             df = df.dropna()
             df['Signal'] = 0.0
-            df['Signal'] = np.where(df['avgPrice20'] > df['avgPrice50'], 1.0, 0.0)
+            df['Signal'] = np.where((df['avgPrice20'] > df['avgPrice50']) & (df['avgPrice50'] < df['avgPrice200']), 1.0, 0.0)
             df['Position'] = df['Signal'].diff()
-            print(df)
+            print(df.tail(30))
             print('-----------------------------------------------')
 
 trade_list=['DBL','ISEC','FSL','MCX','RELIANCE','HINDUNILVR','IOC','HDFC','KOTAKBANK','BAJFINANCE','SBIN','BHARTIARTL','HCLTECH','ASIANPAINT','AXISBANK','MARUTI','DMART','ULTRACEMCO','JSWSTEEL','BAJAJFINSV','ADANIGREEN','SUNPHARMA','NESTLEIND','ADANIPORTS','ATGL','ADANIENT','TATASTEEL','ONGC','HDFCLIFE','HINDZINC','ADANITRANS','TITAN','POWERGRID','BAJAJ-AUTO','DIVISLAB','NTPC','SHREECEM','SBILIFE','GRASIM','TECHM','DABUR','BPCL','SBICARD','PIDILITIND','M&M','HINDALCO','COALINDIA','BRITANNIA','ICICIPRULI','GODREJCP','INDUSINDBK','CIPLA','MOTHERSUMI','BERGEPAINT','INDUSTOWER','GAIL','EICHERMOT','SIEMENS','ICICIGI','DLF','INDIGO','HAVELLS','AMBUJACEM','CADILAHC','MARICO','NAUKRI','AUROPHARMA','TATACONSUM','HDFCAMC','HEROMOTOCO','LUPIN','NMDC','JINDALSTEL','MUTHOOTFIN','BANDHANBNK','APOLLOHOSP','CHOLAFIN','BIOCON','TORNTPHARM','PGHH','IDBI','COLPAL','BOSCHLTD','MCDOWELL-N','PIIND','BAJAJHLDNG','PNB','PEL','SRF','HONAUT','HINDPETRO','GUJGASLTD','BANKBARODA','MINDTREE','PETRONET','JUBLFOOD','GICRE','BALKRISIND','IDFCFIRSTB','CONCOR','ALKEM','GODREJPROP','MPHASIS','ABBOTINDIA','ASHOKLEY','YESBANK','PAGEIND','TATAPOWER','SRTRANSFIN','UBL','VOLTAS','KANSAINER','ASTRAL','MFSL']

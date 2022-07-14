@@ -17,11 +17,13 @@ def process_trade(trade_list):
             df['avgPrice20'] = short_rolling20
             short_rolling50 = df7.rolling(window=50).mean()
             df['avgPrice50'] = short_rolling50
+            short_rolling200 = df7.rolling(window=200).mean()
+            df['avgPrice200'] = short_rolling200
             df = df.dropna()
             df['Signal'] = 0.0
-            df['Signal'] = np.where(df['avgPrice20'] > df['avgPrice50'], 1.0, 0.0)
+            df['Signal'] = np.where((df['avgPrice20'] > df['avgPrice50']) & (df['avgPrice50'] < df['avgPrice200']), 1.0, 0.0)
             df['Position'] = df['Signal'].diff()
-            print(df)
+            print(df.tail(30))
             print('-----------------------------------------------')
 
 trade_list =['VTL','SEQUENT','NLCINDIA','REDINGTON','CANFINHOME','BSOFT','MAHINDCIE','ELGIEQUIP','ROSSARI','SUPPETRO','PRSMJOHNSN','BALRAMCHIN','AVANTIFEED','LAXMIMACH','WESTLIFE','SUNCLAYLTD','PRINCEPIPE','WOCKPHARMA','JCHAC','SONATSOFTW','PNBHOUSING','TV18BRDCST','ZENSARTECH','GMMPFAUDLR','RVNL','ORIENTELEC','VARROC','RITES','ICICIBANK','GNFC','TEAMLEASE','PNCINFRA','SOLARA','RALLIS','KALPATPOWR','EIHOTEL','KNRCON','GESHIP','THYROCARE','FDC','HEIDELBERG','GARFIBRES','FINCABLES','EDELWEISS','KPITTECH','JYOTHYLAB','BRIGADE','VMART','VAKRANGEE','TATAINVEST','INFIBEAM','CENTURYTEX','CEATLTD','INDIACEM','UJJIVANSFB','LUXIND','JUSTDIAL','ADVENZYMES']

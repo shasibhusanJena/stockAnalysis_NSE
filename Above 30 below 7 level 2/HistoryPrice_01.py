@@ -27,7 +27,6 @@ def process_trade(trade_list):
             df['avgPrice180'] = short_rolling180
             ds = ""
             for i in df.index:
-                # if df.loc[i, 'avgPrice30'] <= df.loc[i, 'Close'] >= df.loc[i, 'avgPrice7'] >= df.loc[i, 'avgPrice3'] and \
                 if df.loc[i, 'avgPrice7'] >= df.loc[i, 'Close'] >= df.loc[i, 'avgPrice30'] and \
                         df.loc[i, 'Close'] <= df.loc[i, 'avgPrice180'] and \
                         df.loc[i, 'Close'] <= df.loc[i, 'avgPrice45'] and \

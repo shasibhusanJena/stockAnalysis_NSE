@@ -17,11 +17,13 @@ def process_trade(trade_list):
             df['avgPrice20'] = short_rolling20
             short_rolling50 = df7.rolling(window=50).mean()
             df['avgPrice50'] = short_rolling50
+            short_rolling200 = df7.rolling(window=200).mean()
+            df['avgPrice200'] = short_rolling200
             df = df.dropna()
             df['Signal'] = 0.0
-            df['Signal'] = np.where(df['avgPrice20'] > df['avgPrice50'], 1.0, 0.0)
+            df['Signal'] = np.where((df['avgPrice20'] > df['avgPrice50']) & (df['avgPrice50'] < df['avgPrice200']), 1.0, 0.0)
             df['Position'] = df['Signal'].diff()
-            print(df)
+            print(df.tail(30))
             print('-----------------------------------------------')
 
 trade_list =['SANOFI','HATSUN','FORTIS','VINATIORGA','AJANTPHARM','AAVAS','BATAINDIA','TATACHEM','AIAENG','NATCOPHARM','GODREJIND','THERMAX','PERSISTENT','GLENMARK','ALKYLAMINE','NAVINFLUOR','HINDCOPPER','ABFRL','APLAPOLLO','MAHABANK','SCHAEFFLER','EXIDEIND','FEDERALBNK','ESCORTS','LINDEINDIA','SUNDRMFAST','GSPL','RAJESHEXPO','GRAPHITE','SUMICHEM','GMRINFRA','KAJARIACER','MINDAIND','NATIONALUM','SUVENPHAR','APOLLOTYRE','AFFLE','CRISIL','ZYDUSWELL','INDHOTEL','AMARAJABAT','WABCOINDIA','PHOENIXLTD','MANAPPURAM','BAJAJELEC','INDIANB','BLUEDART','CASTROLIND','HAPPSTMNDS','TANLA','GRINDWELL','METROPOLIS','AEGISCHEM','SKFINDIA','JBCHEPHARM','UCOBANK','SOLARINDS','RBLBANK','PRESTIGE','CARBORUNIV','SHRIRAMCIT']

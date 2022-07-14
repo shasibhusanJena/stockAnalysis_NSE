@@ -5,12 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2adc0b9-d3bc-463e-acfa-c8aab2284cfb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/analysis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA -50/Execute_subprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA -50/HistoryPrice_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA -50/HistoryPrice_12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA -50/HistoryPrice_14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA -50/HistoryPrice_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA -50/HistoryPrice_16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA -50/HistoryPrice_17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA -50/HistoryPrice_18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA -50/HistoryPrice_19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA -50/HistoryPrice_20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/Execute_subprocess_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/Execute_subprocess_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMA-50-2/HistoryPrice_12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Above 30 below 7 level 2/HistoryPrice_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Above 30 below 7 level 2/HistoryPrice_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Below 50 200 7/Execute_subprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Below 50 200 7/Execute_subprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Below 50 200 7/stockname.py" beforeDir="false" afterPath="$PROJECT_DIR$/stockname.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Above 30 below 7 no 180/HistoryPrice_20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Above 30 below 7 no 180/HistoryPrice_20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/Execute_subprocess_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/Execute_subprocess_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/Execute_subprocess_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/Execute_subprocess_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_07.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_08.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_09.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA level 2/HistoryPrice_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA-1/HistoryPrice_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/Execute_subprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/Execute_subprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/HistoryPrice_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/HistoryPrice_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/HistoryPrice_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/HistoryPrice_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/HistoryPrice_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/HistoryPrice_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/HistoryPrice_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/HistoryPrice_15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/HistoryPrice_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/HistoryPrice_16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/HistoryPrice_17.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/HistoryPrice_17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/HistoryPrice_18.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/HistoryPrice_18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/HistoryPrice_19.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/HistoryPrice_19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/HistoryPrice_20.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/HistoryPrice_20.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +98,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SMA 20 perc below" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyDebuggerOptionsProvider">
@@ -61,6 +106,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace_analysis\analysis\SMA 20 perc below" />
       <recent name="C:\workspace_analysis\analysis" />
       <recent name="C:\workspace_analysis\analysis\Below 50 200 Above 7" />
       <recent name="C:\workspace_analysis\analysis\SMA level 2" />
@@ -71,8 +117,8 @@
       <recent name="C:\workspace_analysis\analysis\Below 50 200 Above 7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.HistoryPrice_02">
-    <configuration name="HistoryPrice_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Execute_subprocess_1 (1)">
+    <configuration name="Execute_subprocess (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +126,95 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Above 30 below 7 level 2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SMA -50" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Above 30 below 7 level 2/HistoryPrice_02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SMA -50/Execute_subprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Execute_subprocess_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SMA-50-2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SMA-50-2/Execute_subprocess_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Execute_subprocess_2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SMA-50-2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SMA-50-2/Execute_subprocess_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HistoryPrice_11 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SMA 20 perc below" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SMA 20 perc below/HistoryPrice_11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HistoryPrice_1111" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SMA 20 perc below" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SMA 20 perc below/HistoryPrice_1111.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HistoryPrice_02" />
+        <item itemvalue="Python.Execute_subprocess_1 (1)" />
+        <item itemvalue="Python.Execute_subprocess (1)" />
+        <item itemvalue="Python.Execute_subprocess_2 (1)" />
+        <item itemvalue="Python.HistoryPrice_11 (1)" />
+        <item itemvalue="Python.HistoryPrice_1111" />
       </list>
     </recent_temporary>
   </component>
@@ -142,8 +276,35 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
     <option name="LAST_COMMIT_MESSAGE" value="updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SMA 20 perc below/HistoryPrice_11.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SMA 20 perc below/HistoryPrice_11.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

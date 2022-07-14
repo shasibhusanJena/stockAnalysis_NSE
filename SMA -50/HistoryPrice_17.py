@@ -17,11 +17,13 @@ def process_trade(trade_list):
             df['avgPrice20'] = short_rolling20
             short_rolling50 = df7.rolling(window=50).mean()
             df['avgPrice50'] = short_rolling50
+            short_rolling200 = df7.rolling(window=200).mean()
+            df['avgPrice200'] = short_rolling200
             df = df.dropna()
             df['Signal'] = 0.0
-            df['Signal'] = np.where(df['avgPrice20'] > df['avgPrice50'], 1.0, 0.0)
+            df['Signal'] = np.where((df['avgPrice20'] > df['avgPrice50']) & (df['avgPrice50'] < df['avgPrice200']), 1.0, 0.0)
             df['Position'] = df['Signal'].diff()
-            print(df)
+            print(df.tail(30))
             print('-----------------------------------------------')
 
 trade_list =['CAMS','CHOLAHLDNG','DCMSHRIRAM','HDFCBANK','IIFLWAM','MOTILALOFS','INTELLECT','TIMKEN','TTKPRESTIG','GALAXYSURF','AMBER','SJVN','IIFL','AKZOINDIA','KPRMILL','GODREJAGRO','PGHL','FINPIPE','CENTRALBK','VGUARD','CREDITACC','POLYMED','ASTRAZEN','FINEORG','QUESS','WELSPUNIND','FLUOROCHEM','ALOKINDS','ROUTE','DHANI','CHAMBLFERT','RATNAMANI','UTIAMC','STLTECH','ERIS','HUDCO','CESC','GRANULES','IDFC','CYIENT','CDSL','BLUESTARCO','IBULHSGFIN','BBTC','NBCC','CGCL','BASF','BALAMINES','INFY','CENTURYPLY','JMFINANCIL','SYMPHONY','MRPL','TRIDENT','RADICO','EIDPARRY','ASTERDM','ABB','ASAHIINDIA','POWERINDIA','AARTIDRUGS','BIRLACORPN']
