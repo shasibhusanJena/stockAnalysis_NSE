@@ -35,7 +35,7 @@ Over the time we have considered different combinations and have validated resul
 
 #### Sample Output
     Once you run application will give output signal on which trade to buy next from the attribute named as 'Signal' we also can modify example accordingly
- 
+    then we can filter .txt files with something similar to  "1.0       1.0" or "Today Date"  and find some insight of the current data
     Example:
 
     Line 558: 2021-*****  SHREECEM     EQ  30663.35   28668  28068.2650   27975.261     1.0       1.0
