@@ -1,5 +1,7 @@
-#### Analysis
-Here we will find some basic knowledge on how to use packages like: for NSE stock analysis 
+#### Overview
+Here i have developed some of standard scripts to process each stocks 5 year History price and find correct buy level for NSE stocks. 
+
+packages used are:
 
     1.datetime
     2.nsepy
