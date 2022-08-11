@@ -23,7 +23,8 @@ Over the time we have considered different combinations and have validated resul
 #### Next action items
    - add RSI indicator to give more insight like: over buy / under buy
       - here is a good example to integrate https://handsoffinvesting.com/calculate-and-analyze-rsi-using-python/
-   - add files into AWS Lambda.
+   - add files into S3 or Read files from a file system to automate the process. 
+   - add script into AWS Lambda and then enable AWS watch to monitor the Daily processing of data.
    - add AWS watch to monitor usage.
    - store every day execution data with below format in s3 bucket.
       - yyyy-mm-dd hh:mm     
