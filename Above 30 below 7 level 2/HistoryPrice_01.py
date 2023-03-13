@@ -1,7 +1,6 @@
 from datetime import date
 import sys
 import pandas as pd
-import stockname as st
 from nsepy import get_history
 
 
@@ -43,8 +42,13 @@ def process_trade(trade_list):
             print(ds)
             # sys.stdout = original_std_out
 
-
 # Large Cap
-trade_list = st.list_one
+trade_list = ['POWERGRID', 'ITC', 'NTPC', 'COALINDIA', 'TATASTEEL', 'TITAN', 'BRITANNIA', 'TCS',
+              'DRREDDY', 'ONGC', 'NESTLEIND', 'HEROMOTOCO', 'BAJAJFINSV', 'BPCL', 'CIPLA', 'HINDUNILVR',
+              'BAJAJ-AUTO', 'IOC', 'GAIL', 'M&M', 'WIPRO', 'RELIANCE', 'DIVISLAB', 'HCLTECH',
+              'INFY', 'SUNPHARMA', 'MARUTI', 'SBILIFE', 'GRASIM', 'HDFC', 'ASIANPAINT', 'LT', 'TECHM',
+              'INDUSINDBK', 'SHREECEM', 'UPL', 'ADANIPORTS', 'HINDALCO',
+              'HDFCLIFE', 'EICHERMOT', 'HDFCBANK',
+              'BAJFINANCE', 'ULTRACEMCO', 'JSWSTEEL', 'TATAMOTORS', 'AXISBANK', 'ICICIBANK', 'SBIN']
 
 process_trade(trade_list)
