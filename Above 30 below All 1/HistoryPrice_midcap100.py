@@ -15,8 +15,8 @@ def process_trade(trade_list):
             df7 = pd.DataFrame(data, columns=['Close'])
             short_rolling3 = df7.rolling(window=3).mean()
             df['avgPrice3'] = short_rolling3
-            short_rolling7 = df7.rolling(window=7).mean()
-            df['avgPrice7'] = short_rolling7
+            short_rolling10 = df7.rolling(window=10).mean()
+            df['avgPrice10'] = short_rolling10
             short_rolling30 = df7.rolling(window=30).mean()
             df['avgPrice30'] = short_rolling30
             short_rolling50 = df7.rolling(window=50).mean()
@@ -26,13 +26,13 @@ def process_trade(trade_list):
 
             ds = ""
             for i in df.index:
-                if df.loc[i, 'avgPrice7'] >= df.loc[i, 'Close'] >= df.loc[i, 'avgPrice30'] and \
+                if df.loc[i, 'avgPrice10'] >= df.loc[i, 'Close'] >= df.loc[i, 'avgPrice30'] and \
                         df.loc[i, 'Close'] <= df.loc[i, 'avgPrice200'] and \
                         df.loc[i, 'Close'] <= df.loc[i, 'avgPrice50']:
 
                     ls = str(i) + ": " + str(df.loc[i, 'Symbol']) \
                          + " Close: " + str(df.loc[i, 'Close']) \
-                         + " avgPrice7 " + str(round(df.loc[i, 'avgPrice7'])) \
+                         + " avgPrice10 " + str(round(df.loc[i, 'avgPrice10'])) \
                          + " avgPrice30 " + str(round(df.loc[i, 'avgPrice30'])) \
                          + " avgPrice50 " + str(round(df.loc[i, 'avgPrice50'])) \
                          + " avgPrice200 " + str(round(df.loc[i, 'avgPrice200'])) \
