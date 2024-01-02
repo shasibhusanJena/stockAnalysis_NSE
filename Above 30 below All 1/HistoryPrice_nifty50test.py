@@ -5,11 +5,11 @@ from nsepy import get_history
 
 
 def process_trade(trade_list):
-    with open('filename03.txt', 'w') as f:
+    with open('nifty50.txt', 'w') as f:
         sys.stdout = f  # Change the standard output to the file we created.
         print('This message will be written to a file.')
         for trade in trade_list:
-            data = get_history(symbol=trade, start=date(2019, 1, 1), end=date.today())
+            data = get_history(symbol=trade, start=date(2020, 1, 1), end=date.today())
             df =""
             df = pd.DataFrame(data, columns=['Symbol', 'Series', 'Prev Close', 'Close', 'Volume'])
             df7 = pd.DataFrame(data, columns=['Close'])
@@ -44,6 +44,5 @@ def process_trade(trade_list):
 
 
 # Large Cap
-trade_list = ['TATAMOTORS','NTPC','MARUTI','BRITANNIA','POWERGRID','TITAN','ADANIPORTS','SUNPHARMA','BPCL','BAJAJ-AUTO','ITC','UPL']
-
+trade_list = ['TATAMOTORS','NTPC','MARUTI']
 process_trade(trade_list)
